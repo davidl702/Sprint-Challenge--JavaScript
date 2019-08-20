@@ -6,7 +6,7 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
-const myFunction = (a, b, cb) => {
+const consume = (a, b, cb) => {
   return cb(a, b)
 }
 
@@ -24,7 +24,7 @@ const multiply = (num1, num2) => {
 }
 
 const greeting = (firstName, lastName) => {
-  return `Hello ${first-name} ${last-name}, nice to meet you!`
+  return `Hello ${firstName} ${lastName}, nice to meet you!`
 }
 
 
